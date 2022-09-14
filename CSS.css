@@ -4,4 +4,73 @@ body{
     background-attachment: fixed;
     background-position: 48%;
     background-color: antiquewhite;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+   
+
+
+}
+
+.question{
+    letter-spacing: 0.2em;
+   font-style: italic;
+   font-weight: bold;
+  
+}
+
+.mainbox{
+    width: 800px;
+    max-width: 80%;
+    background-color: antiquewhite;
+    border-radius: 3%;
+    padding: 10px;
+    height: 20%;
+
+}
+
+.answers{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 12px;
+    margin: 15px;
+
+}
+
+.btn{
+    background-color: burlywood;
+    border-color: aliceblue;
+    color: rgb(245, 244, 243);
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 10px, 10px;
+}
+
+.btn:hover{
+    color: black;
+    border-radius: 0px;
+    background-color: rgb(162, 180, 138);
+}
+
+#start-btn{
+    font-size: medium;
+    padding: 15px 15px;
+    width: 37vw;
+    height: 10vh;
+    margin: 36px;
+    
+}
+
+#next-btn{
+    font-size: medium;
+    
+}
+
+
+.hide{
+    display: none;
 }
