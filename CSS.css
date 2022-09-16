@@ -64,7 +64,7 @@ body{
 .btn:hover{
     color: black;
     border-radius: 0px;
-    background-color: rgb(162, 180, 138);
+    background-color: rgb(138, 163, 180);
 }
 
 #start-btn{
