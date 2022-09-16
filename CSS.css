@@ -16,14 +16,14 @@ body{
 
 }
 
-.question{
+#question{
     letter-spacing: 0.2em;
    font-style: italic;
    font-weight: bold;
   
 }
 
-.mainbox{
+.container{
     width: 800px;
     max-width: 80%;
     background-color: antiquewhite;
@@ -33,7 +33,7 @@ body{
 
 }
 
-.answers{
+#answer-buttons{
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 12px;
@@ -59,7 +59,7 @@ body{
 #start-btn{
     font-size: medium;
     padding: 15px 15px;
-    width: 37vw;
+    width: 56vw;
     height: 10vh;
     margin: 36px;
     
