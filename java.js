@@ -78,35 +78,59 @@ function clearStatusClass(element) {
 
 const questions = [
   {
-    question: 'What is 2 + 2?',
+    question: 'What day and year did "D day" started?',
     answers: [
-      { text: '4', correct: true },
-      { text: '22', correct: false }
+      { text: 'June 6 1944', correct: true },
+      { text: 'Janurary 17 1964', correct: false },
+      { text: 'May 9 1950', correct: false },
+      { text: 'September 2 2022', correct: false }
     ]
   },
   {
-    question: 'Who is the best YouTuber?',
+    question: 'What country did Germany conquer first?',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: 'Tatooin', correct: false },
+      { text: 'Italy', correct: false },
+      { text: 'France', correct: false },
+      { text: 'Poland', correct: true }
     ]
   },
   {
-    question: 'Is web development fun?',
+    question: 'In what year WW2 started',
     answers: [
-      { text: 'Kinda', correct: false },
-      { text: 'YES!!!', correct: true },
-      { text: 'Um no', correct: false },
-      { text: 'IDK', correct: false }
+      { text: '1950', correct: false },
+      { text: '1939', correct: true },
+      { text: '1945', correct: false },
+      { text: '2019', correct: false }
     ]
   },
   {
-    question: 'What is 4 * 2?',
+    question: 'Where did D day started?',
     answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: 'France', correct: true },
+      { text: 'Germany', correct: false },
+      { text: 'Russia', correct: false },
+      { text: 'Australia', correct: false }
+    ]
+  },
+
+  {
+    question: 'Which country attack first the United States?',
+    answers: [
+      { text: 'Japon', correct: true },
+      { text: 'Australia', correct: false },
+      { text: 'Russia', correct: false },
+      { text: 'Mexico', correct: false }
+    ]
+  },
+
+  {
+    question: 'Where did Japon attack in the United States?',
+    answers: [
+      { text: 'Washinghton DC', correct: false },
+      { text: 'Pearl Harbor', correct: true },
+      { text: 'New York', correct: false },
+      { text: 'KFC', correct: false }
     ]
   }
 ]
