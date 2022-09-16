@@ -65,6 +65,7 @@ body{
     color: black;
     border-radius: 0px;
     background-color: rgb(138, 163, 180);
+    border-color: black;
 }
 
 #start-btn{
