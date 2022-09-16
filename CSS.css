@@ -52,7 +52,7 @@ body{
   }
 
 .btn{
-    --hue: var(--hue-neutral);
+    
     background-color: burlywood;
     border-color: aliceblue;
     color: rgb(245, 244, 243);
@@ -86,10 +86,11 @@ body{
     display: none;
 }
 
-.container.corrext{
-    --hue: var(--hue-correct);
+.btn.correct{
+    color: rgb(32, 172, 32);
+    
 }
 
-.container.wrong{
-    --hue:var(--hue-wrong);
+.btn.wrong{
+   color: red;
 }
