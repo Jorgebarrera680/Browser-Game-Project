@@ -1,1 +1,2 @@
 # Browser-Game-Project
+Hello this is a quiz game about WW2, is a game with 6 questions and four awnsers, thers no flaws or erros in this game, has a restart button in the end of the quiz if you want to try it again
